@@ -12,7 +12,7 @@ function obtenerDatos (){
 function mostrarDatos({date, explanation, media_type, title, url}){
 
     const titulo = document.querySelector('#titulo');
-    titulo.innerHTML= titulo;
+    titulo.innerHTML= title;
 
     const fecha = document.querySelector('#fecha');
     fecha.innerHTML = date;
